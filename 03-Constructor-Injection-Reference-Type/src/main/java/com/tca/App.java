@@ -1,0 +1,23 @@
+package com.tca;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.tca.bean.Customer;
+
+public class App 
+{
+    public static void main(String[] args) 
+    {
+    	//1.Creating and Starting Container
+        ApplicationContext context =  new ClassPathXmlApplicationContext("config.xml");
+        
+        Customer customer = context.getBean(Customer.class);
+        
+        System.out.println(customer.getCustomerId());
+        System.out.println(customer.getCustomerName());
+        System.out.println(customer.getAddress().getCity());
+        System.out.println(customer.getAddress().getPincode());
+        
+    }
+}
