@@ -12,5 +12,5 @@
     <constructor-arg name="classB" ref="b"/>
 </bean>
     
-   
+   	
 </beans>
