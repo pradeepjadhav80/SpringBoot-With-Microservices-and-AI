@@ -1,0 +1,13 @@
+package com.tca.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+
+@Configuration
+@ComponentScan("com.tca")
+@PropertySource(value = { "myapp.properties" })
+public class AppConfig 
+{
+	//Bean
+}
