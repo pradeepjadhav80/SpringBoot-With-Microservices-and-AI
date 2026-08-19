@@ -7,6 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
+import com.tca.model.Student;
 import com.tca.repository.StudentRepository;
 
 @SpringBootApplication
@@ -20,8 +21,8 @@ public class Application
 		
 		
 		StudentRepository studentRepository = context.getBean(StudentRepository.class);
-		
 		/*
+		
 		 //Test Case : Insert data
 		 
 		Student student = new Student(101,"Pradeep",80.20,"Pune"); 

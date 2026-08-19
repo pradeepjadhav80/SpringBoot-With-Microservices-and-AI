@@ -19,7 +19,7 @@ public class InitRunner implements ApplicationRunner
 		jt.execute("Drop table IF EXISTS student");
 		System.out.println("Table is Deleted Successfully !!");
 		
-		jt.execute("create table student(rno int primary key,name varchar(20),per float,city ");
+		jt.execute("create table student(rno int primary key,name varchar(20),per float,city varchar(20))");
 		System.out.println("Table is Created !!");
 		
 		jt.update("Insert into student values(101,'Pradeep',90.2,'Pune')");
