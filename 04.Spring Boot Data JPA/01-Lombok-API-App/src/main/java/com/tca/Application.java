@@ -32,6 +32,8 @@ public class Application {
 		System.out.println("Ob is Equals to ob 2 -> "+(ob==ob2));
 		System.out.println("Ob is Equals to ob 1 -> "+ob.equals(ob1));
 		
+		//.equals() cheack actual contain when it is override if we do not override the cheack only the refernce
+		
 	}
 
 }

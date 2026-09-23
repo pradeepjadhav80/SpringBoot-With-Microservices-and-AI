@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 //@Setter
 //@Getter
 //@ToString
-@Data  			//It Combination of the setter,getter,toString,EqualsAndHashCode
+@Data 			//It Combination of the setter,getter,toString,EqualsAndHashCode
 public class Student 
 {
 	//Why should use lombok --> When we declare member and after requirement comes we have to change the 
